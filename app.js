@@ -9,12 +9,13 @@ app.get('/', routes.home)
 
 app.get('/about', routes.about)
 
-app.get('/contact', routes.contact)
-
-app.get('/projects', routes.projects)
-
-app.get('/projects/:id', routes.projectSingle)
+// app.get('/contact', routes.contact)
+//
+// app.get('/projects', routes.projects)
+//
+// app.get('/projects/:id', routes.projectSingle)
 
 app.get('*', routes.notFound)
 
 app.listen(process.env.PORT || 3000);
+console.log("running on port 3000...");
