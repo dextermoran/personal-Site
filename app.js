@@ -9,11 +9,11 @@ app.get('/', routes.home)
 
 app.get('/about', routes.about)
 
-// app.get('/contact', routes.contact)
-//
-// app.get('/projects', routes.projects)
-//
-// app.get('/projects/:id', routes.projectSingle)
+app.get('/contact', routes.contact)
+
+app.get('/projects', routes.projects)
+
+app.get('/projects/:id', routes.projectSingle)
 
 app.get('*', routes.notFound)
 
