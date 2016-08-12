@@ -1,10 +1,39 @@
 <html>
-  <head>
-    <% include partials/head.ejs %>
-  </head>
 
-  <body>
+<head>
+    <% include partials/head.ejs %>
+</head>
+
+<body>
     <% include partials/nav.ejs %>
-    <h1>contact dexter</h1>
-  </body>
+        <div class="container">
+            <form class="col s12" action="http://formspree.io/dextermoran@gmail.com" method="POST">
+
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <input placeholder="Your Name" id="name" name="users name" type="text" class="validate">
+                    </div>
+
+                    <div class="col s12 m6 l6">
+                        <input placeholder="Your Email" id="Email" name="_replyto" type="text" class="validate">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" name="emailBody" class="materialize-textarea"></textarea>
+                        <label for="textarea1">What's on your mind?</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s2 m2 l2 offset-l10 offset-s4">
+                        <input class="waves-light btn" type="submit" value="Send">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+</body>
+
 </html>
