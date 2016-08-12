@@ -6,13 +6,21 @@
   margin-left: 1%;
 }
 
+#textbox {
+  position: relative;
+}
+
+.container {
+  margin-top: 3%;
+}
+
 /*body {
   background-color: #eceff1;
 }*/
 
 
 /*#eceff1 blue-grey lighten-5
-#cfd8dc blue-grey lighten-4
+#cfd8dc blue-grey lighten-4  - text background
 #b0bec5 blue-grey lighten-3
 #90a4ae blue-grey lighten-2
 #78909c blue-grey lighten-1
