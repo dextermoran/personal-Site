@@ -18,8 +18,10 @@ exports.contact = function(req, res) {
 }
 
 exports.projects = function(req, res) {
+  var projects = projectJson.projects
   res.render('projects', {
-    title: "Projects"
+    title: "Projects",
+    projects: projects
   });
 }
 

@@ -3,14 +3,14 @@
     "title" : "Conserv",
     "projectId" : "1",
     "description" : "this is my dbc final and this is more of a description than this",
-    "images" : ["headshot.jpg", "email-black.png"]
+    "images" : ["images/headshot.jpg", "email-black.png"]
   },
 
     {
       "title" : "Project2",
       "projectId" : "2",
       "description" : "this is a second project and this is more of a description than this",
-      "images" : ["headshot.jpg", "email-black.png"]
+      "images" : ["images/headshot.jpg", "email-black.png"]
       }
 
   ]

@@ -11,12 +11,8 @@
 }
 
 .container {
-  margin-top: 3%;
+  margin-top: 5%;
 }
-
-/*body {
-  background-color: #eceff1;
-}*/
 
 
 /*#eceff1 blue-grey lighten-5
@@ -29,3 +25,21 @@
 #455a64 blue-grey darken-2
 #37474f blue-grey darken-3
 #263238 blue-grey darken-4*/
+
+/* label color */
+ .input-field label {
+   color: #546e7a;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #546e7a;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid #546e7a;
+   box-shadow: 0 1px 0 0 #546e7a;
+ }
+
+ .btn {
+   background-color: #546e7a;
+ }

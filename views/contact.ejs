@@ -7,22 +7,23 @@
 <body>
     <% include partials/nav.ejs %>
         <div class="container">
+            <h4>Lets get in touch</h4>
             <form class="col s12" action="http://formspree.io/dextermoran@gmail.com" method="POST">
 
                 <div class="row">
-                    <div class="col s12 m6 l6">
+                    <div class="input-field col s12 m6 l6">
                         <input placeholder="Your Name" id="name" name="users name" type="text" class="validate">
                     </div>
 
-                    <div class="col s12 m6 l6">
+                    <div class="input-field col s12 m6 l6">
                         <input placeholder="Your Email" id="Email" name="_replyto" type="text" class="validate">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="input-field col s12">
-                        <textarea id="textarea1" name="emailBody" class="materialize-textarea"></textarea>
-                        <label for="textarea1">What's on your mind?</label>
+                        <textarea id="textarea1" name="emailBody" class="materialize-textarea" placeholder="What's on your mind?"></textarea>
+
                     </div>
                 </div>
 
