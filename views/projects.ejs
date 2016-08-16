@@ -7,10 +7,9 @@
 <body>
     <% include partials/nav.ejs %>
         <div class="container">
-            <h1>Dexters projects</h1>
-            <% for(var i = 0; i < 2; i++) {%>
-            <div class="row">
-                <div class="col s6 m7">
+          <div class="row">
+            <% for(var i = 0; i < 6; i++) {%>
+                <div class="col s12 m6 l4">
                     <div class="card">
                         <div class="card-image">
                             <img src=<%= projects[i].images[0] %>>
@@ -20,12 +19,12 @@
                             <p><%= projects[i].description %></p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="http://127.0.0.1:3000/projects/<%= projects[i].projectId %>">See More</a>
                         </div>
                     </div>
                 </div>
+                <% } %>
             </div>
-            <% } %>
         </div>
 </body>
 

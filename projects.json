@@ -3,6 +3,7 @@
     "title" : "Conserv",
     "projectId" : "1",
     "description" : "this is my dbc final and this is more of a description than this",
+    "link" : "http://conserv.herokuapp.com/",
     "images" : ["images/headshot.jpg", "email-black.png"]
   },
 
@@ -10,8 +11,41 @@
       "title" : "Project2",
       "projectId" : "2",
       "description" : "this is a second project and this is more of a description than this",
+      "link" : "http://conserv.herokuapp.com/",
       "images" : ["images/headshot.jpg", "email-black.png"]
-      }
+      },
+
+        {
+          "title" : "Project3",
+          "projectId" : "3",
+          "description" : "this is a second project and this is more of a description than this",
+          "link" : "http://conserv.herokuapp.com/",
+          "images" : ["images/headshot.jpg", "email-black.png"]
+          },
+
+            {
+              "title" : "Project4",
+              "projectId" : "4",
+              "description" : "this is a second project and this is more of a description than this",
+              "link" : "http://conserv.herokuapp.com/",
+              "images" : ["images/headshot.jpg", "email-black.png"]
+              },
+
+                {
+                  "title" : "Project5",
+                  "projectId" : "5",
+                  "description" : "this is a second project and this is more of a description than this",
+                  "link" : "http://conserv.herokuapp.com/",
+                  "images" : ["images/headshot.jpg", "email-black.png"]
+                  },
+
+                    {
+                      "title" : "Project6",
+                      "projectId" : "6",
+                      "description" : "this is a second project and this is more of a description than this",
+                      "link" : "http://conserv.herokuapp.com/",
+                      "images" : ["images/headshot.jpg", "email-black.png"]
+                      }
 
   ]
 }
