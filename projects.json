@@ -4,7 +4,7 @@
     "projectId" : "1",
     "description" : "this is my dbc final and this is more of a description than this",
     "link" : "http://conserv.herokuapp.com/",
-    "images" : ["images/headshot.jpg", "email-black.png"]
+    "images" : ["images/headshot.jpg", "images/email-black.png", "images/email-black.png", "images/email-black.png"]
   },
 
     {
@@ -12,7 +12,7 @@
       "projectId" : "2",
       "description" : "this is a second project and this is more of a description than this",
       "link" : "http://conserv.herokuapp.com/",
-      "images" : ["images/headshot.jpg", "email-black.png"]
+      "images" : ["images/headshot.jpg", "images/email-black.png"]
       },
 
         {
@@ -20,7 +20,7 @@
           "projectId" : "3",
           "description" : "this is a second project and this is more of a description than this",
           "link" : "http://conserv.herokuapp.com/",
-          "images" : ["images/headshot.jpg", "email-black.png"]
+          "images" : ["images/headshot.jpg", "images/email-black.png"]
           },
 
             {
@@ -28,7 +28,7 @@
               "projectId" : "4",
               "description" : "this is a second project and this is more of a description than this",
               "link" : "http://conserv.herokuapp.com/",
-              "images" : ["images/headshot.jpg", "email-black.png"]
+              "images" : ["images/headshot.jpg", "images/email-black.png"]
               },
 
                 {
@@ -36,7 +36,7 @@
                   "projectId" : "5",
                   "description" : "this is a second project and this is more of a description than this",
                   "link" : "http://conserv.herokuapp.com/",
-                  "images" : ["images/headshot.jpg", "email-black.png"]
+                  "images" : ["images/headshot.jpg", "images/email-black.png"]
                   },
 
                     {
@@ -44,7 +44,7 @@
                       "projectId" : "6",
                       "description" : "this is a second project and this is more of a description than this",
                       "link" : "http://conserv.herokuapp.com/",
-                      "images" : ["images/headshot.jpg", "email-black.png"]
+                      "images" : ["images/headshot.jpg", "images/email-black.png"]
                       }
 
   ]
