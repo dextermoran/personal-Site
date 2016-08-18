@@ -29,9 +29,10 @@ exports.projectSingle = function(req, res) {
   var projectId = req.params.id;
   var project = projectJson.projects[projectId - 1];
 
-  if(projectId >= 1 && projectId <= 2){
+  if(projectId >= 1 && projectId <= projectJson.projects.length){
     res.render('projectSingle', {
-      title: project.title
+      title: project.title,
+      project: project
     });
   } else {
     res.render('notFound', {
